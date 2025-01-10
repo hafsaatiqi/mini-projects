@@ -1,0 +1,46 @@
+#board {
+  width: 840px;
+  height: 700px;
+  padding: 20px 0;
+  margin: auto;
+  border-left: 50px solid #004085; /* Darker blue for better contrast */
+  border-right: 50px solid #004085; /* Darker blue for better contrast */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20px;
+  background: #007bff; /* Stronger, vibrant blue for the background */
+  border-radius: 20px; /* Rounded corners for a smoother look */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Adds some shadow for depth */
+}
+
+.slot {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 45%;
+  background: lightgray;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.slot img {
+  transition: 1s;
+}
+
+#playerDisplay {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
